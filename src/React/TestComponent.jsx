@@ -1,11 +1,20 @@
 import React from 'react'
 import App from '../Vue/App.vue'
 import Vue from 'vue'
+import store from '../Vue/store'
+import VueRouter from "vue-router";
+Vue.use(VueRouter);
+import router from '../Vue/router'
+
+import i18n from '../Vue/I18n'
 
 const vm = new Vue({
   data: {
     name: 'Vlada'
   },
+  i18n,
+  store,
+  router,
   render: h => h(App)
 })
 
@@ -21,8 +30,7 @@ export default class TestComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello, {this.props.name}</h1>
-        <h2>Starting Test</h2>
+        <h2>I'm a React Component</h2>
         <div id="vue-app" ref="vueApp"></div>
       </div>
     );
