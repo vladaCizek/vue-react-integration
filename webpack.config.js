@@ -1,21 +1,27 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
 
   entry: './src/index.jsx',
 
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  },
+
   output: {
     filename  : 'index.js',
-    path      : './output/',
+    path      : path.resolve(__dirname, 'output'),
   },
 
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
-    // new VueLoaderPlugin()
+    new VueLoaderPlugin()
   ],
 
   module: {
@@ -27,28 +33,17 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
       }
     ],
-
-    loaders: [
-      {
-        test: /\.jsx?$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
-      },
-      // {
-      //   test: /\.vue$/,
-      //   loader: 'vue-loader',
-      // }
-    ]
   },
   resolve: {
-    extensions: ["", ".js", ".jsx"],
+    extensions: [".js", ".jsx"],
     alias: {
       react: path.resolve('./node_modules/react'),
     },
-  },
-  node: {
-    fs: 'empty'
   },
 };

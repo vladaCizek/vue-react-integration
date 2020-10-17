@@ -1,16 +1,12 @@
 import React from 'react'
+import App from '../Vue/App.vue'
+import Vue from 'vue'
 
 const vm = new Vue({
   data: {
     name: 'Vlada'
   },
-  render(h) {
-    return h('div', {
-      'class': 'is-red'
-    }, [
-      h('p', 'Vue Instance'),
-    ])
-  }
+  render: h => h(App)
 })
 
 export default class TestComponent extends React.Component {
@@ -19,7 +15,6 @@ export default class TestComponent extends React.Component {
 
   }
   componentDidMount() {
-    console.log('did  mount? ', vm)
     const ref = this.refs.vueApp
     vm.$mount(ref)
   }

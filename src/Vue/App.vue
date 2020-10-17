@@ -1,11 +1,16 @@
 <template>
   <div>
-    <h1>Hello From VUe</h1>
+    <h1>Hello From {{name}}</h1>
   </div>
 </template>
 
 <script>
 export default {
-name: "App"
+name: "App",
+  data() {
+  return {
+    name: 'Vue'
+  }
+  }
 }
 </script>
