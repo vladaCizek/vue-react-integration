@@ -2,12 +2,12 @@
   <div>
     <h1 class="orange">I am {{name}} Component</h1>
 
-    <router-view></router-view>
+<!--    <router-view></router-view>-->
 
-    <nav class="test">
-      <li class="child"><router-link :to="'/'">Home</router-link></li>
-      <li><router-link :to="'/about'">About</router-link></li>
-    </nav>
+<!--    <nav class="test">-->
+<!--      <li class="child"><router-link :to="'/'">Home</router-link></li>-->
+<!--      <li><router-link :to="'/about'">About</router-link></li>-->
+<!--    </nav>-->
 
     <div>
       <h3>New Users</h3>
@@ -28,18 +28,17 @@
       </div>
     </div>
 
-    <div>
-      <h3>Router Values</h3>
-      <div>
-        <p>FullPath: {{ $route.fullPath}}</p>
-        <p>Path: {{ $route.path}}</p>
-      </div>
-      <pre>{{$route}}</pre>
-    </div>
+<!--    <div>-->
+<!--      <h3>Router Values</h3>-->
+<!--      <div>-->
+<!--        <p>FullPath: {{ $route.fullPath}}</p>-->
+<!--        <p>Path: {{ $route.path}}</p>-->
+<!--      </div>-->
+<!--      <pre>{{$route}}</pre>-->
+<!--    </div>-->
 
     <div>
       <h3>i18n</h3>
-      <p class="warning">vue-i18n suffers an error on locale changing. I wasn't able to figure out yet why.</p>
       <SelectLocale />
       <div>
         <p>
@@ -60,7 +59,7 @@ import SelectLocale from "./components/SelectLocale.vue";
 export default {
 name: "App",
   created() {
-    console.log(this.$i18n)
+    // console.log(this.$i18n)
   },
   data() {
     return {

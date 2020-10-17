@@ -1,4 +1,7 @@
+
+import Vue from 'vue'
 import VueRouter from "vue-router";
+Vue.use(VueRouter);
 import Index from "../views/Index.vue";
 import About from "../views/About.vue";
 

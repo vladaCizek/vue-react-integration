@@ -2,10 +2,7 @@ import React from 'react'
 import App from '../Vue/App.vue'
 import Vue from 'vue'
 import store from '../Vue/store'
-import VueRouter from "vue-router";
-Vue.use(VueRouter);
-import router from '../Vue/router'
-
+// import router from '../Vue/router'
 import i18n from '../Vue/I18n'
 
 const vm = new Vue({
@@ -14,7 +11,7 @@ const vm = new Vue({
   },
   i18n,
   store,
-  router,
+  // router,
   render: h => h(App)
 })
 

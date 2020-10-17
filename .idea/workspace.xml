@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce97282-0e32-46d3-99a4-7d601374e8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vue/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/React/TestComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/React/TestComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vue/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vue/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vue/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,5 +60,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1602940807858">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1602940807858" />
   </component>
 </project>
