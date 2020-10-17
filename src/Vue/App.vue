@@ -4,8 +4,8 @@
 
     <router-view></router-view>
 
-    <nav>
-      <li><router-link :to="'/'">Home</router-link></li>
+    <nav class="test">
+      <li class="child"><router-link :to="'/'">Home</router-link></li>
       <li><router-link :to="'/about'">About</router-link></li>
     </nav>
 
@@ -91,5 +91,11 @@ name: "App",
   @import "styles/index.scss";
   .success {
     color: blue;
+  }
+
+  .test {
+    .child {
+      background-color: red;
+    }
   }
 </style>
