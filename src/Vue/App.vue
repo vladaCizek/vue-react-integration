@@ -2,12 +2,12 @@
   <div>
     <h1 class="orange">I am {{name}} Component</h1>
 
-<!--    <router-view></router-view>-->
+    <router-view></router-view>
 
-<!--    <nav class="test">-->
-<!--      <li class="child"><router-link :to="'/'">Home</router-link></li>-->
-<!--      <li><router-link :to="'/about'">About</router-link></li>-->
-<!--    </nav>-->
+    <nav class="test">
+      <li class="child"><router-link :to="'/'">Home</router-link></li>
+      <li><router-link :to="'/about'">About</router-link></li>
+    </nav>
 
     <div>
       <h3>New Users</h3>
@@ -27,15 +27,6 @@
         <p>Name: <span>{{user.name}}</span></p>
       </div>
     </div>
-
-<!--    <div>-->
-<!--      <h3>Router Values</h3>-->
-<!--      <div>-->
-<!--        <p>FullPath: {{ $route.fullPath}}</p>-->
-<!--        <p>Path: {{ $route.path}}</p>-->
-<!--      </div>-->
-<!--      <pre>{{$route}}</pre>-->
-<!--    </div>-->
 
     <div>
       <h3>i18n</h3>

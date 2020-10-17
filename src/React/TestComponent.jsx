@@ -2,8 +2,10 @@ import React from 'react'
 import App from '../Vue/App.vue'
 import Vue from 'vue'
 import store from '../Vue/store'
-// import router from '../Vue/router'
+import router from '../Vue/router'
 import i18n from '../Vue/I18n'
+
+console.log('router ', router)
 
 const vm = new Vue({
   data: {
@@ -11,7 +13,7 @@ const vm = new Vue({
   },
   i18n,
   store,
-  // router,
+  router,
   render: h => h(App)
 })
 
