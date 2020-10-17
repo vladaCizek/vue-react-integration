@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>I am {{name}} Component</h1>
+    <h1 class="orange">I am {{name}} Component</h1>
 
     <router-view></router-view>
 
@@ -21,7 +21,7 @@
     </div>
 
     <div>
-      <h3>Store User</h3>
+      <h3 class="success">Store User</h3>
       <div>
         <p>Id: <span>{{user.id}}</span></p>
         <p>Name: <span>{{user.name}}</span></p>
@@ -87,5 +87,9 @@ name: "App",
 </script>
 
 <style lang="scss">
-@import "./styles/index.scss";
+  @import "./styles/index.css";
+  @import "styles/index.scss";
+  .success {
+    color: blue;
+  }
 </style>

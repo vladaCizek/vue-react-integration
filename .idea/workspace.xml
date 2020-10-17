@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce97282-0e32-46d3-99a4-7d601374e8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vue/I18n/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/components/SelectLocale.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/views/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vue/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/React/TestComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/React/TestComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vue/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vue/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,11 +38,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Vue/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Vue/views" />
     </key>
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602925587152</updated>
-      <workItem from="1602925588183" duration="7168000" />
+      <workItem from="1602925588183" duration="8620000" />
     </task>
     <servers />
   </component>
